@@ -1,0 +1,17 @@
+{
+  "name": "fracparser",
+  "version": "0.1.0",
+  "description": "Some text parsing thing I guess?",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^18.7.13",
+    "typescript": "^4.8.2"
+  },
+  "scripts": {
+    "typescript": "tsc --build",
+    "test": "node ./build/ts/index.spec.js",
+    "build": "npm run typescript && npm run test"
+  },
+  "author": "John Haugeland <stonecypher@gmail.com>",
+  "license": "MIT"
+}
